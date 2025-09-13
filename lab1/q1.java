@@ -18,4 +18,3 @@ public class q1 {
         sc.close();
     }
 }
-
