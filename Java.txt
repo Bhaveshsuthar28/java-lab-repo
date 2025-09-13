@@ -1,0 +1,395 @@
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 1
+LAB No. LAB ASSIGNMENT (OBJECTIVE)
+LAB No. ( 1
+)
+CLASS,INTERFACE,ABSTRACT CLASS WITH OBJECT
+1) Write an application that ask the user to enter two integer, obtain them from user and print their sum, product,
+difference and quotient and must be use package concept in this application.
+Q2) Write an application that asks user to enter two integer, obtain them from the user and display the larger
+number followed by the word "is larger". if the numbers are equal, print the" the number are equal". Path and
+Classpath Concept use in this Application.
+Q3) write an application that input three integer from the user and obtain the sum, average,product,largest and
+smallest of the numbers using interface and abstract class concept.
+Q4) Write an application that input from the user that the radius of the circle is an integer and the print the circle
+diameter , circumfrence and area using the floating point value 3.14159 for math.Pi(You can also use the
+predefined constant math.pi for the value of pi.)
+Q5)Write an application that inputs one number consisting of five digits from the user, separate the number into
+its individual digits and print the digit separates from one another for three spaces each. for example if the user
+type the number 42335 the program should print ( 4 2 3 3 5).
+Q6)Write an application that calculate the square and cubes of number from 0to10 and print the resulting value
+in table format.
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 2
+
+
+
+
+
+LAB No. (2)
+CLASS,CONSTRUCTOR,SIB,IIB,STATIC METHOD,WRAPPER CLASS
+Q1)Create an application that calculate your daily driving cost , so that you can estimate how much money could
+be saved by car pooling which also has other advantages such as reducing carbon emission and traffic congestion
+. The application should input the following informationand display the user's cost per day of driving to work.
+ a)total miles driven per day
+ b)cost per gallon of gasoline
+ c)average fees per day
+ d)tolls per day
+Q2.) Create a class called invoice that hardware store might use to represent an invoice for an item sold at the
+store. An invoice should include four pieces of information as instance variable
+ a part number(type string)
+ a part description(type string)
+ a quantity of the item being purchased(type int)
+ a price per item(double)
+Your class should have a constructor that initialization the four instance variable . Provide a set and a get method
+for each instance variable . In addition provide method named getInvoiceAmount that calculate the invoice
+amount(i.e. multiplies the quantity per item ), then return the amount as a double value.If the quantity is not
+positive it should be set to 0. If the price per item is not positive it should be set to 0.0. Write test application
+named invoice test that demonstration class invoice capabilities.
+Q3.)Create a class called employee that include three instance variable a)name(type string) b) last name (type
+string) and c) monthly salary(double). Provide a constructor that initialize the three instance variable. Provide a
+set and a get method of instance variable. if the monthly salary is not positive do not set its value. Write a test
+aplication named employeetest that demonstrate class employee capabilities.create two employee object and
+display each object yearly salary. Then give each employee a 10% hike and display each employee yearly salary
+again.
+Q4.) Create a class called date that include three instance variable a) month(type int) b)day (type int) and c) year
+(type int) . provide a constructer that initialize a three instance variable and assume the value provided are
+correct. Provide a set and a get method for each instance variable.Provide a method DisplayDate that display the
+month year and day separated by forward slashand write a test application named DateTest that demonstrate
+date capabilities.
+Q5.)(Gas mileage ) Drivers are concerned with the mileage theit automobiles get. One driver has kept track of
+several trips by recording the miles driven and gallons used for each tankful.Develop a java application that will
+input the miles driven and gallons used(both as in) for each trip.The program should calculate and display the
+miles per gallon obtained for each trip and print the combined miles per gallon obtained for all trips up to this
+point. All averaging calculate should produce floating point results. Use class scanner and sentinel-controlled
+repetition to obtain the data from the user.
+Q6.) (Credit limit calculator) Develop a java application that determines whether any of several department -
+store customer has exceeded the credit limit on a charge account. For each customer following facts are available:
+ account number.
+ balance at the begining of the month.
+ total of all items charged by the customer this month.
+ total of all credits applied to the
+Q7.)A parking garage charges a $2.00 minimum fee to park for up to three hours. The garage charges an
+additional $0.50 per hours for each hours or part thereof in excess of three hours. The maximum charge for any
+given 24-hours period is $10.00.Assume that no car parks for longer than 24 hours at a time. Write an application
+that calculates and displays the parking charges for each customers who parked in the garage yesterday. You
+should enter the hours parked for each customers . The program should display the charge for the current
+customers and should calculate and display the running total os yesterday's receipts. It should use the method
+calculate charges to determine the charge for each customer.
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 3
+
+
+
+
+LAB No. (3)
+CLASS,INTERFACE,ABSTRACT,CONSTRUCTOR,INHERITANCE
+Q1.)Design a class called figure . It must have three attributes r,aand v of the data type douoble.It must have the
+following methods:
+public void dispArea(); public void dispVolume();
+The method dispArea must have a statement to print the volume of a. The method dispVolume();
+must have a statement to print the value of v.Design a class cone . It must extends class figure class .It must also
+have the following attributes h,s of type double.It must have following methods:
+public void calcArea();public void calcVolume();
+The formulae for the area and volume of the cone are as follows:
+Area of a cone(p*r*s)+(p*r*s)
+volume of a con=(p*r*s)/3
+Write a main method in a class called inheritance demo to demonstrate inheritance.
+Q2.) Define an abstract class called Figure having following attribute pi of the data type double. The attribute pi
+have a value equal to 3.1420.It must have the following abstract methods .
+public abstract void calcArea();public abstract void calcVol();
+public abstract void DispArea();public abstract void Dispvol();
+Design three classes cone , sphere and cylinder. Each of these classes must extend the Figure class
+class name Attribute
+Cone n,s of type double
+Sphere R
+cylinder h of type double
+Define the inherited abstract methods in the subclass by using the given formulae and set the value of the
+inherited attribute a and v for area and volume, rspe. Define any constructor /method that may be necessary.
+Write a main method in a class called Demo and invoke the methods of each subclass.
+Q3.) Design a class named 'x' having two attributes i and j of the type int. Let it have a constructor that takes in
+two argument of type int and assign them to i and j.Let it also have a method name final sum that compute the
+sum of i and j that return it.Let a class 'y' extend class x,lets it have its own constructer and method name find
+product that compute and return i*j. lets a class Z extend a class Y.Design a class name multilevel inheritance
+demo it must have the main method in which the object of class Z is constructed and all the methods(its own and
+the inherited one ) are invokeand the sum difference and the product are display.
+Q4.) create a package named FigPackage. Define an abstract class called figure having the following attribute
+r,a,v and pi of the datatype double.the attribute pi must have a value equal to 3.1428.must have the following
+abstract methodpublic abstract void calcArea(); public abstract void calcVolume();
+public abstract void dispArea();public abstract void dispVolume();
+design three classes cone,sphere,cylinder. each of these class must extends the Figure class
+class name Attribute
+Cone n,s of type double
+Sphere
+Cylinder n of the type double
+the formulae for the area and volume of the cone,cylinder and sphere are as follows:
+Class Formal
+cone area=(pi*r*s)+(pi*r*r)
+volume=(pi*r*v*h)/3
+Sphere area=(4*pi*r*r)
+volume=(4*pi*r*r*r)/3
+Cylinder area=(2*pi*r*r)+(2*pi*r*h)
+volume=pi*r*r*h
+define the inherited abstract method in the subclass by using the given formulae and set values of inherited
+attribute a and v for the rea and volume ,respectively define any constructor /method that may be necessary.
+write a main method in a class called Demo and invoke the method of each subclass. all the created class must be
+put in the fig Package compile and execute program at command prompt.
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 4
+LAB No.(4)
+CLASS,ARRAY,ABSTRACT,INTERFACE,PACKAGE,STRING
+Q.1) Write a function to give demostrate the functionality of 3D matrix in 1D matirx. Function prototye:
+void set (int value,int indexX,int indexY,int indexZ, int [] 1dArray);
+void get (int value,int indexX,int indexY,int indexZ, int [] 1dArray).
+Q.2) We need to write the function to check the password entered is correct or not based on the following
+conditions.
+a) It must have atleast one lower case character and one digit.
+b) It must not have any Upper case characters and any special characters
+c) length should be b/w 5-12.
+d) It should not have any same immediate patterns like
+abcanan1 : not acceptable coz of an an pattern
+abc11se: not acceptable, coz of pattern 11
+123sd123 : acceptable, as not immediate pattern
+adfasdsdf : not acceptable, as no digits
+Aasdfasd12: not acceptable, as have uppercase character
+Q.3) A string is entered like aabcdeaabcjlkjerwlaaabbsadfdsf...
+And you have to print those characters which exceed a given no. n entered by user.
+Q.4) You have to enter a string and check whether it is a perfect string or not. A perfect string is a string which has
+occurance of every character only once.
+ Eg. absdhkqwertyuioplmnvczx
+Q.5) you have to enter a range from a and b and search how many no. of times a pattern n. occurs between the
+range a and b.
+Eg :i/p:enter range :0 100
+ Enter pattern: 13
+o/p: the no. times 13 occurred betwwn 0 to 100:1
+Eg :i/p:enter range :100 1000
+Enter pattern: 13
+ o/p: the no. times 13 occurred betwwn 100 to 1000:
+(in this 13,113,131,132,133.139,213,313,.913 all these will be counted)
+Q.6)Declare an interface called Function that has a method named evaluate that takes an int parameter and
+returns an int value.Create a class Half that implements Function. Make the implementation of the method
+evaluate() return the value obtained by dividing the int argument by 2.In a client, create a method that takes an
+arbitrary array of int values as parameter and returns an array that has the same length, but the value of an
+element in the new array is half that of the value in the corresponding element in the array passed as parameter.
+Let the implementation of this method create an instance of Half and use this instance to calculate the values in
+the array to be returned.
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 5
+LAB No.(5)
+MNC COMPANY QUESTION(Ex.1,Ex.2,Ex.3,Ex.4)
+Q.1)Image a queue of people standing at the bus stand to buy tickets .whenever a person buys a ticket,he leaves
+the queue and all the remaining people take one step forward.any new person joins the queue at the
+back.implement the above queue for integer in the folowing mannerdefine an interface named QueueImpl that
+will have method to insert into the queue ,delete from the queue and display the integer currently present int the
+queue.let a class calleld QueueDemo implement the interface .Make your own provisions for exception handaling
+in case of overflow and underflow condation use an array (with maximum size 10) to hiuse the queue. Write a
+single main program ti demonstrate the insert ,delete and display operations as well as the Exception handaling
+in case of overflow and underflow condation.
+Q.2) write a complete java program to test whether a given number is a hexadecimal number or not .if it is not ,an
+exception should be throwns and processed by the program .the exception must be userdefined .the numbere
+must be assigned to string variable.String function must be used to processing.irrespective of whether the
+number is a hexadecimal number or not the string Endingthe program must be printed on the screen.
+Q.3) Create Product having following attributes: Product ID, Name, Category ID and UnitPrice. Create
+ElectricalProduct having the following additional attributes: VoltageRange and Wattage. Add a behavior to
+change the Wattage and price of the electrical product. Display the updated ElectricalProduct details.
+Q.4) Define a class called fruit with the following attributes :
+1. Name of the fruit.
+2. Single fruit or bunch fruit.
+3. Price.
+Define a suitable constructor and displayFruit() method that displays values of all the
+attributes. Write a program that creates 2 objects of fruit class and display their attributes.
+Q.5) Utopias tax accountants always use programs that compute income taxes even though the tax rate is a solid,
+never- changing 15%.Define the program calculate Tax which determines the tax on the gross pay. Define
+calculate NetPay that determines the net pay of an employee from the number of hours worked. Assume an
+hourly rate of $12.
+Q.6 Createa class called Student which has the following methods:
+ i). Average: which would accept marks of 3 examinations & return whether the student has passed or failed
+Depending on whether he has scored an average above 50 or not.
+ ii). Input name: which would accept the name of the student & returns the name.
+Q.7. Write a program to grade a short multiple choice quiz.the correct answers for the quiz are:
+1. C 5. B
+2. A 6. C
+3. B 7. C
+4. D 8. A
+Assume that the pass marks are 5 out of 8.the program stores the correct answers in an array.the
+submitted answers are specifies as program arguments. Let X represents a question that was not
+answered on the quiz.Use an enum type to represent the result of answering a question.
+The program calculates and prints a report along the following lines:
+QUESTION SUBMITTED ANS CORRECT ANS RESULT
+1 C C CORRECT
+2 B A WRONG
+3 B B CORRECT
+4 D D CORRECT
+5 B B CORRECT
+6 C C CORRECT
+7 A C WRONG
+8 X A UNANSWERED
+No. of correct answers: 5
+No: of wrong answers. 2
+No of questions unanswered: 1
+The candidate passed.
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 6
+LAB No.(6)
+ClASS ,SUPER,THIS,INHERITANCE,PACKAGE
+Q.1). Demonstrate the use of ‘super’ and this keyword(constructor changing)
+a) To refer to a member of super class.
+ b) To call super class constructor from sub class constructor.
+Q.2) An old-style movie theater has a simple profit program. Each customer pays $5 per ticket. Every
+performance costs the theater $20, plus $.50 per attendee.Develop the program calculate TotalProfit that
+consumes the number of attendees (of a show) and calculates how much income the show earns.
+Q.3)Create a washing machine class with methods as switchOn, acceptClothes, acceptDetergent, switchOff.
+acceptClothes accepts the noofClothes as argument & returns the no of Clothes.
+Q.4. Create an abstract class car contains an instance variable .one concrete method and two abstract
+method.Maruti and santro are subclass implements the abstrat method of super class and methods are avg() and
+mode().Create a class Car1 to use all the features of abstract method by creating a reference to it and referring to
+the subclass object.
+Q.5) Create a Bank class with methods deposit & withdraw. The deposit method would accept attributes amount
+& balance & returns the new balance which is the sum of amount & balance. Similarly, the withdraw method
+would accept the attributes amount & balance & returns the new balance ‘balance – amount’ if balance > =
+amount or return 0 otherwise.
+Q.6) Create a class to model a point in 3D space. Data members x,y,z as coordinate of 3D point are of type int.
+Constructors: To create 3D point represented the origin arbitrary point. Methods:
+ i/p the coordinates of 3D point.
+ o/p the coordinate of 3D point in the form(x,y,z).
+ Compute distance between two points.
+
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 7
+LAB No.(7) ClASS ,EXCEPTION HANDALING,STRING,PACKAGE
+Q.1) Develop a program that accepts an initial amount of money (called the principal), a simple annual interest
+rate, and a number of months will compute the balance at the end of that time. Assume that no additional
+deposits or withdrawals are made and that a month is 1/12 of a year. Total interest is the product of the
+principal, the annual interest rate expressed as a decimal, and the number of years.
+Q.2)Write a class vehicle .Define suitable attributes and methods. Write subclasses of Vehicle like Car, Bicycle,
+Scooter.
+Assume suitable required attributes. Write constructor for each and define a method maxSpeed() in each
+class
+Which prints the maximum speed of the vehicle? (Use of super keyword is expected in the constructor of
+inherited classes).
+Q.3)Create Book having following attributes: Book ID, Title, Author and Price. Create Periodical which has the
+following additional attributes: Period (weekly, monthly etc…) .Add a behavior to modify the Price and the Period
+of the periodical. Display the updated periodical details.
+Q.4) Write a program to use ‘extends’ keyword to create student class by reusing Teacher class code.We should
+write only additional members in student class whih are not available in Teacher class.
+Q.5)Suppose it is required to build a project consisting of a number of classes possibly using a large number of
+programmers.It is necessary to make sure that every class from whih all the other classes in the project will be
+inherited .Since any new classes in the project must inherit from the base class .Programmers are not free to
+create any interface.Therefore,it can be guaranted that all the classes in the project will respond to the same
+debugging commands.
+Q.6)Define a class named Course having data members ID, Description, Duration and Fees. The class should have
+one parametrized constructors and GetData() function member to display the data. Create an array of 5 course
+objects and then display the data for all of them.
+Q.7). Write a program to grade a short multiple choice quiz.the correct answers for the quiz are:
+1. C
+2. A
+3. B
+4. D
+Assume that the pass marks are 2 out of 4.The program stores the correct answers in an array.the submitted
+answers are specifies as program arguments. Let X represents a question that was not answered on the
+quiz.Use an enum type to represent the result of answering a question.
+The program calculates and prints a report along the following lines:
+QUESTION SUBMITTED ANS CORRECT ANS RESULT
+1 C C CORRECT
+2 B A WRONG
+3 B B CORRECT
+4 D D CORRECT
+No. of correct answers: 3
+No: of wrong answers. 1
+The candidate passed.
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 8
+LAB No.(8) FILE HANDLING,IO PACKAGE
+1)write a program to read a line of text from the console.find the position of the first and last occurrence of the
+string “the” .Copy all the character enclosed between the two positions to another String and print it out.
+2) Write a program to read a line of text from the console.Print out only the vowels(a,e,i,o,u) and their position of
+occurrence.
+3) A set of 10 names is given. write a program to delete the first three characters of the names and arrange the
+resulting names in alphabetical order and print them out.
+5) Write a program to read a line of text from the console. change the first character of each word to uppercase
+letter and print out the resulting string.
+6) write a program to read a text file ,”sdj.txt” and replace all his “his” words with another word “her”.
+
+
+
+
+
+
+
+
+Experiment
+No.(9)
+THREAD ,RUNNABLE INTERFACE,SYNCHRONIZATION,WAIT AND NOTIFYALL,INTERTHREAD
+COMMUNICATION
+1)Creation of a thread by extending the thread class the thread is created and started in main method of another
+class.
+2) Creation of a thread by implementing the interface Runnable interface the thread is created and stared by the
+constructor of same class.
+3)Program calculate the sin(x) and cos(x) functions by computing the sin series and cos series functions using
+thread techniques.(sin(x) and cos(x) calculate using Math class).
+4) Write a program makes two player number game. Players are to feed in an integer number which is not used in
+the program, but keeps the player engaged in the game. For each player, a random number is generated. the
+player who gets higher number is the winner. The winner gets points equal to the difference between the two
+random numbers.
+5) Write a java program to convert the sequence of character AB*CD/+ representing the polish notation to the
+original expression A*B+C/D .use two thread to perform the evaluation.
+6) Write a java program to compute the first 25 prime numbers. Also compute the first 50 Fibonacci numbers
+given by fn=fn-1 +fn-2 with f1 =f2=1.create two thread to compute each one of them .set the priority of thread
+that compute Fibonacci number to 8 and the other to 5.After calculating 50 Fibonacci number, make that thread
+to sleep and take up prime number computation. After computing the 25 prime numbers continue the Fibonacci
+number computing.
+7) A bank account is operated by a father and his son. the account is opened with an initial deposit of Rs. 600.
+Thereafter, the father deposits a random amount between Rs. 1 and Rs. 200 each time, until the account balance
+crosses Rs. 2000.the son can start withdraws random amount only if the balance exceeds Rs. 2000.thereafter,the
+son withdraws random amount between Rs 1 and Rs. 150, until the balance goes below Rs. 500. Once the
+balances become less than Rs. 500, the father deposits amount till it crosses Rs. 2,000 and the process continues.
+Write a Father Deposits amount till it crosses Rs. 2000 and the process continues. Write a father and son thread
+to carry out the above process.
+
+
+
+
+
+
+
+
+
+
+
+
+Prepared By: Praveen Kumar Chandaliya www.javapadho.com Page 9
+LAB
+No.(10)
+APPLET WITH AWT,LISTENER
+Q.1) Write an applet to display the date and time .the time is to be shown like a digital clock.
+Q.2) Write an applet to get an image using getImage() method .Draw the image and also play an audio clip in a
+loop.
+Q.3) Write a java program to draw line on a frame by pressing the mouse and dragging to another point like a pen
+tool in a paint tool.
+Q.4) Write a program to draw a word in font size 6, expanding to 96 font size and collapsing to initial size
+repeatedly.
+Q.5) Create a font of your choice and print your name in three font styles, each one having a different font size.
+Q.6) Write an applet that will accept a text from a keyboard and display it on the screen as a moving text from
+right to left .use key event to input the text.
